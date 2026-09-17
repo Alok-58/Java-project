@@ -1,0 +1,14 @@
+Oct 10 14:00:01 debian-srv CRON[10412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 14:00:02 debian-srv CRON[10412]: pam_unix(cron:session): session closed for user root
+Oct 10 14:01:22 debian-srv sshd[10450]: Accepted publickey for deploy from 192.168.1.50 port 49120 ssh2: RSA SHA256:abcd1234efgh
+Oct 10 14:01:23 debian-srv sshd[10450]: pam_unix(sshd:session): session opened for user deploy by (uid=1001)
+Oct 10 14:02:10 debian-srv sshd[10501]: Failed password for invalid user admin from 203.0.113.55 port 41201 ssh2
+Oct 10 14:02:13 debian-srv sshd[10504]: Failed password for invalid user root from 203.0.113.55 port 41204 ssh2
+Oct 10 14:02:16 debian-srv sshd[10508]: Failed password for invalid user test from 203.0.113.55 port 41208 ssh2
+Oct 10 14:02:19 debian-srv sshd[10512]: Failed password for invalid user ubuntu from 203.0.113.55 port 41212 ssh2
+Oct 10 14:02:22 debian-srv sshd[10516]: Failed password for invalid user oracle from 203.0.113.55 port 41216 ssh2
+Oct 10 14:02:25 debian-srv sshd[10520]: Failed password for invalid user postgres from 203.0.113.55 port 41220 ssh2
+Oct 10 14:03:00 debian-srv sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 10 14:03:00 debian-srv sudo: pam_unix(sudo:session): session opened for user root by deploy(uid=1001)
+Oct 10 14:03:02 debian-srv sudo: pam_unix(sudo:session): session closed for user root
+Oct 10 14:04:15 debian-srv sshd[10450]: pam_unix(sshd:session): session closed for user deploy

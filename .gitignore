@@ -1,0 +1,19 @@
+# Compiled class files
+bin/
+target/
+*.class
+
+# IDE and Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Reports and generated outputs
+*.html
+*.json
+!samples/*.json
+logs/
+temp/
