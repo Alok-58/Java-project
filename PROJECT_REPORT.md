@@ -1,5 +1,5 @@
-#Name - Alok Yadav
-#Registration number - 24BCY10309
+# Name - Alok Yadav
+# Registration number - 24BCY10309
 
 # PROJECT REPORT: SMART LOG ANALYZER
 ## Autonomous Server and Firewall Log Correlation & Threat Detection System
